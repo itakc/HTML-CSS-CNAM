@@ -1,0 +1,28 @@
+.container { /* cadre rose*/
+  display: flex;
+  background: pink;
+  height: 400px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item { /* rond rouge*/
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background: red;
+}
+
+.big {
+  height: 150px;
+  width: 150px;
+}
+
+.small {
+  height: 50px;
+  width: 50px;
+}
+
+.item:nth-child(odd) { /* rond vert*/
+  background: green;
+}
